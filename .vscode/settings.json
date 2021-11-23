@@ -1,5 +1,0 @@
-{
-    "code-runner.executorMap":{
-        "cpp":"chcp 65001 "
-    },
-}
