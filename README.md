@@ -18,4 +18,4 @@ windows端图像识别自动化python脚本
 9.	如果程序开始后因为你选择了无限重复而鼠标被占用停不下来，alt+F4吧~
 
 
-想自己开发和优化的  可以看看pyautogui库其他用法 https://blog.csdn.net/qingfengxd1/article/details/108270159
+pyautogui库其他用法 https://blog.csdn.net/qingfengxd1/article/details/108270159
