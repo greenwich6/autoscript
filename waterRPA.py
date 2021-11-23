@@ -144,11 +144,11 @@ if __name__ == '__main__':
     wb = xlrd.open_workbook(filename=file)
     #通过索引获取表格sheet页
     sheet1 = wb.sheet_by_index(0)
-    print('欢迎使用不高兴就喝水牌RPA~')
+    print('欢迎使用RPA~')
     #数据检查
     checkCmd = dataCheck(sheet1)
     if checkCmd:
-        key=input('选择功能: 1.做一次 2.循环到死 \n')
+        key=input('选择功能: 1.执行一次 2.循环到死 \n')
         if key=='1':
             #循环拿出每一行指令
             mainWork(sheet1)
